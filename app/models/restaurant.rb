@@ -13,5 +13,6 @@ class Restaurant
   attr_reader :id
 
   def owner
+    sql = <<-SQL
   end
 end
